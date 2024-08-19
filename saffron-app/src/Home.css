@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    background: #f7f3f8; /* Soft off-white background */ 
+    color: #0c0c0c; 
+}
+
+.home-container {
+    text-align: center; 
+}
+
+/* Hero Section (Background Image, etc.) */
+.hero-section {
+    background-image: url('./images/saffron-background.jpeg'); /* Replace with your image */
+    background-size: cover; 
+    background-position: center;
+    min-height: 400px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: #fff; /* White text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for readability */
+}
+
+.hero-content {
+    text-align: center; /* Center content horizontally */
+}
+
+.hero-content h1 {
+    font-size: 3.5rem; 
+    margin-bottom: 1rem;
+}
+
+/* Categories Section */
+.categories-container {
+    padding: 40px 20px;
+}
+
+.categories-container h2 {
+    color: #6a0dad; 
+    margin-bottom: 20px; 
+}
+
+.rotating-categories {
+    display: flex; 
+    overflow-x: hidden; 
+    position: relative; 
+}
+
+.category-item {
+    flex: 0 0 100%; /* Take full width initially */
+    min-width: 100%; 
+    transition: transform 0.5s ease-in-out; /* Smooth transition for sliding */
+}
+
+.category-item.active {
+    transform: translateX(-100%); /* Slide out to the left */
+}
+
+.category-item a { /* Style the link */
+    text-decoration: none; 
+    color: inherit;  
+}
+
+.category-image {
+    overflow: hidden; 
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 15px; 
+}
+
+.category-image img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease; /* Add a zoom effect on hover */
+}
+
+.category-image:hover img {
+    transform: scale(1.1); 
+}
+
+.category-info {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    justify-content: center; 
+    font-size: 1.2rem; 
+    color: #6a0dad; 
+}
+
+.category-info svg {
+    margin-right: 10px; /* Space between icon and text */
+    font-size: 1.5rem;
+}

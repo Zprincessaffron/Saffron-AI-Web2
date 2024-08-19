@@ -1,0 +1,77 @@
+/* Pregnancy.css */
+.pregnancy-container {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f7f3f8; 
+    min-height: calc(100vh - 80px); 
+  }
+  
+  .pregnancy-container h1 {
+    color: #6a0dad; 
+    margin-bottom: 20px;
+  }
+  
+  .pregnancy-form { /* Style the form */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 30px; 
+  }
+  
+  .pregnancy-form input[type="text"] {
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%; 
+    max-width: 500px; 
+    font-size: 1.1rem; 
+    margin-right: 15px;
+  }
+  
+  .pregnancy-form button {
+    padding: 15px 25px; 
+    border: none;
+    border-radius: 8px;
+    background-color: #6a0dad; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.1rem;
+  }
+  
+  .pregnancy-form button:hover {
+    background-color: #5a00a1; 
+  }
+  
+  .pregnancy-results { 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 0 auto; 
+    max-width: 800px; 
+  }
+  
+  .pregnancy-results h3 {
+    color: #6a0dad; 
+    margin-top: 0;
+  }
+  
+  .pregnancy-results p {
+    line-height: 1.6; 
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px; 
+  }
+  
+  /* Reuse detail formatting classes */
+  .detail-section {
+    margin-bottom: 20px;
+  }
+  
+  .ingredient-line {
+    margin-left: 20px; 
+  }

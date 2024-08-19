@@ -1,0 +1,48 @@
+/* DishDetail.css */
+.dish-detail-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f7f3f8;
+  min-height: calc(100vh - 80px);
+}
+
+.dish-detail-container h2 {
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.loading-message,
+.error-message {
+  margin-bottom: 20px;
+}
+
+.loading-message {
+  color: #6a0dad;
+  font-style: italic;
+}
+
+.error-message {
+  color: red;
+}
+
+.dish-detail-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; 
+  margin: 0 auto;  
+  max-width: 800px;
+}
+
+.dish-detail-content p {
+  line-height: 1.6; 
+}
+
+.detail-section {
+  margin-bottom: 20px; 
+}
+
+.ingredient-line {
+  margin-left: 20px; 
+}

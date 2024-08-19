@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.category-selector {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 50px;
+}

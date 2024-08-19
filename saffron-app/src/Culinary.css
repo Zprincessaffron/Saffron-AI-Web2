@@ -1,0 +1,134 @@
+/* 
+  Styles.css - Main stylesheet for your Saffron AI app
+*/
+
+/* 
+  General Page Styling 
+*/
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    background: #f7f3f8;  
+    color: #333;           
+  }
+  
+  a { /* Style all links to remove underlines */
+    text-decoration: none;
+  }
+  
+  /* 
+    Home Page Styles
+  */
+  .home-container {
+    text-align: center; 
+  }
+  
+  .hero-section {
+    background-size: cover;
+    background-position: center;
+    min-height: 400px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .hero-content {
+    text-align: center; 
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .categories-container {
+    padding: 40px 20px;
+  }
+  
+  .categories-container h2 {
+    color: #6a0dad;
+    margin-bottom: 20px; 
+  }
+  
+  /* 
+    Culinary Page Styles
+  */
+  .culinary-container {
+    padding: 40px 20px; 
+    background-image: url('./images/culinary1.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: calc(100vh - 80px); /* Adjust as needed */
+    text-align: center;
+    color: white;        
+  }
+  
+  .culinary-header {
+    margin-bottom: 40px; 
+  }
+  
+  .culinary-header h1 {
+    color: white;  
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Stronger shadow for contrast */
+  }
+  
+  .culinary-header p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8); /* Light text with transparency */
+  }
+  
+  .culinary-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .culinary-option {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .culinary-option a { 
+    display: block;  
+    color: inherit;  
+    transition: transform 0.2s ease; /* Add a hover transition */
+  }
+  
+  .culinary-option a:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+  }
+  
+  /* 
+    Option Image Background (Shared by Home and Culinary) 
+  */
+  .option-image { 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    border-radius: 10px;
+    position: relative; 
+    overflow: hidden; 
+  }
+  
+  /* 
+    Option Title Overlay (Shared by Home and Culinary) 
+  */
+  .option-title {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .option-title h2 {
+    font-size: 1.8rem;
+    margin: 0; 
+  }
